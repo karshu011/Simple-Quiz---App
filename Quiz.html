@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Quiz App</title>
+    <link rel="stylesheet" href="Quiz.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Simple Quiz</h1>
+
+        <h2 id="question">What is the colour of the Apple?</h2>
+
+        <button class="option" onclick="checkAnswer('pink')">Pink</button>
+        <button class="option" onclick="checkAnswer('red')">Red</button>
+        <button class="option" onclick="checkAnswer('green')">Green</button>
+        <button class="option" onclick="checkAnswer('yellow')">Yellow</button>
+
+        <p id="result"></p>
+
+        <button id="next" onclick="nextQuestion()">Next</button>
+    </div>
+
+    <script src="Quiz.js"></script>
+</body>
+</html>
